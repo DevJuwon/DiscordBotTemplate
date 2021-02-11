@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'com.makerzip' //자신의 그룹명으로 바꾸기
+version '1.0'
+def jdaVersion = '4.2.0_228'
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    compile "net.dv8tion:JDA:$jdaVersion"
+
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    compile group: 'org.yaml', name: 'snakeyaml', version: '1.8'
+//    compile 'com.sedmelluq:lavaplayer:1.3.66'
+//    compile 'ch.qos.logback:logback-classic:1.2.3'
+
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.google.code.findbugs:findbugs:3.0.1'
+}
+
