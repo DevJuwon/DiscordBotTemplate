@@ -10,7 +10,7 @@ public class Config {
 
     public String token(boolean debug) {
         Properties prop = new Properties();
-        URL url = Thread.currentThread().getContextClassLoader().getResource("config.properties");
+        URL url = Thread.currentThread().getContextClassLoader().getResource("token.properties");
         if (debug) {
             if (prop.getProperty("test-token").length() == 59) {
                 try {
