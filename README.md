@@ -1,1 +1,1 @@
-# DiscordBotTemplate
+# Discord Bot Template
