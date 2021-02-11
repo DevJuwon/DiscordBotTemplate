@@ -1,0 +1,2 @@
+# DiscordBotTemplate
+use 'JDA'
